@@ -72,6 +72,9 @@ background:lightcoral;
 #button-8{
 	background:RosyBrown;
 }
+#Erehwon:hover{
+	color: white;
+}
 #button-9{
 	background:FireBrick;
 }
@@ -250,19 +253,37 @@ content: 'rip';
 align-content: center;
 	opacity: 1;
 }
-#button6 {
-background-color: darkslategray;
-}
+
 #anim {
 
   position: absolute;
   background-color: red;
 }
+
+#button-7:hover{
+    border-radius: 25px;
+    background: Plum;
+		width: 33.33%;
+	height: 250px;
+}
+#button-8:active{
+
+	position: relative;
+	width: 33.33%;
+height: 250px;
+	background-color: red;
+	-webkit-transform: rotateY(180deg);  /* Chrome, Safari, Opera */
+	transform: rotateY(180deg);
+}
+#button-9:active{
+	  box-shadow: 5px 10px 18px #888888;
+}
+#button-11
 #button-17:hover {
 
 background-image: url(images/lord.gif);
 background-size:contain;
-background-repeat: no-repeat;
+background-repeat:no-repeat;
 opacity: 0;
 }
 

@@ -3,8 +3,8 @@
 	$('#button-3').click(function() {
 		$(this).animate({
 			opacity: 0.4,
-			fontSize: '24px'
-			borderWidth: '10px'
+			fontSize: '24px',
+			borderWidth: '10px',
 		}, 500 );
 	});
 	$('#button-7').click(function() {
@@ -12,7 +12,7 @@
 			opacity: 1,
 			marginLeft: '0.6in',
 			fontSize: ,
-			borderWidth: '10px'
+			borderWidth: '10px',
 		}, 500 );
 	});
 	$("#10").click(function() {
