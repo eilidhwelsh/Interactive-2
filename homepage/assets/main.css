@@ -1,9 +1,12 @@
 body{
   text-align: center;
-  background-color: peachpuff;
-  font-family: 'Open Sans', sans-serif;
+  background-color: steelblue;
+  ffont-family: 'Lato', sans-serif;;
 }
 h1{
+    color: tomato;
+}
+h2{
     color: tomato;
 }
 a {
