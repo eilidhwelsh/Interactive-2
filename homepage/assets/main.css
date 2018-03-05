@@ -1,10 +1,10 @@
 body{
   text-align: center;
   background-color: peachpuff;
-  color: tomato;
   font-family: 'Open Sans', sans-serif;
-
-
+}
+h1{
+    color: tomato;
 }
 a {
     color: lightsalmon;
