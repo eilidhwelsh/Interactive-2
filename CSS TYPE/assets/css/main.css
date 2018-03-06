@@ -1,0 +1,198 @@
+body {
+
+}
+
+.letter {
+	width: 200px;
+	height: 300px;
+	position: relative;
+	display: inline-block;
+	margin: 50px;
+}
+
+/* pieces */
+
+#Aserif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#Aserif2 {
+	width: 20px;
+	height: 10px;
+	top: 190px;
+	left: 160px;
+	background: black;
+	position: absolute;
+}
+#ADStroke{
+		border-bottom: 100px solid black;
+		border-left: 0px solid transparent;
+		border-right: 70px solid transparent;
+		height: 0;
+		width: 100px;
+		position:absolute;
+		z-index: -1;
+	top:100px;
+	}
+
+#AAngle {
+	width: 0px;
+	height: 60px;
+	border-bottom: 140px solid white;
+	border-right: 100px solid transparent;
+	top: 150px;
+
+}
+
+#Bserif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#Bserif2 {
+	width: 50px;
+	height: 10px;
+top: 100px;
+	background: black;
+	position: absolute;
+}
+#BDStroke{
+	background: black;
+		width: 50px;
+		height: 80px;
+		position:absolute;
+		z-index: -1;
+	top:100px;
+	}
+
+#Xserif1{
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#Xserif2{width: 50px;
+height: 10px;
+top: 100px;
+background: black;
+position: absolute;
+left:130px;
+}
+#Xserif3{width: 50px;
+height: 10px;
+top: 100px;
+background: black;
+position: absolute;
+}
+#Xserif4{width: 50px;
+height: 10px;
+top: 190px;
+background: black;
+position: absolute;
+left:130px;
+}
+#XDStroke{
+	width: 65px;
+height: 100px;
+-webkit-transform: skew(40deg);
+	 -moz-transform: skew(20deg);
+		 -o-transform: skew(20deg);
+background: black;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+position:absolute;
+z-index: -1;
+top:100px;
+left: 50px;
+}
+#OMiddle{
+	width: 50px;
+		height: 120px;
+		background: white;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;
+		position: absolute;
+		top: 90px;
+		left: 75px;
+}
+#OShape{
+	width: 200px;
+		height: 100px;
+		background: black;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;
+		position: absolute;
+		top: 100px;
+}
+#Nserif1{
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#Nserif2{width: 50px;
+height: 10px;
+top: 100px;
+background: black;
+position: absolute;
+left:130px;
+}
+#Nserif3{width: 50px;
+height: 10px;
+top: 100px;
+background: black;
+position: absolute;
+}
+
+#NDStroke{
+	width: 65px;
+height: 100px;
+-webkit-transform: skew(40deg);
+	 -moz-transform: skew(20deg);
+		 -o-transform: skew(20deg);
+background: black;
+border-left: 5px solid transparent;
+border-right: 5px solid transparent;
+position:absolute;
+z-index: -1;
+top:100px;
+left:50px;
+}
+
+
+#Zserif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#Zserif2 {
+	width: 20px;
+	height: 10px;
+	top: 190px;
+	left: 160px;
+	background: black;
+	position: absolute;
+}
+#ZDStroke{
+	width: 0;
+		height: 0;
+		border-bottom: 100px solid black;
+		border-left: 100px solid transparent;
+		position: absolute;
+	}
+	#ZAngle {
+
+	}
+
+*/
