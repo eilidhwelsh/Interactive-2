@@ -1,0 +1,12 @@
+#container{
+  width: 900px;
+  height:400px;
+  margin: auto;
+  background-color: lightpink;
+  position: absolute;
+}
+
+
+body{
+  background-color: red;
+}
