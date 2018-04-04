@@ -6,13 +6,13 @@ $( document ).ready(function() {
 
   $( '.fruits1' ).click(function() {
     var num = Math.floor((Math.random() * 12) );
-    $(this).html('<img src="assets/Fruit/SVG/' + fruits1[num] + '.svg"/>');
+    $(this).html('<img src="assets/Fruit' + fruits1[num] + '.svg"/>');
 
     });
   $( '.fruits2' ).click(function() {
     var num = Math.floor((Math.random() * 12));
 
-    $(this).html('<img src="assets/Fruit/SVG/' + fruits2[num] + '.svg"/>');
+    $(this).html('<img src="assets/Fruit' + fruits2[num] + '.svg"/>');
 
   });
 });
