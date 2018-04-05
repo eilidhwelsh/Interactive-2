@@ -1,0 +1,30 @@
+body{
+  background-color: #211F1F;
+}
+
+.name{
+  font-size:250pt;
+  font-family:'Lato', sans-serif;
+  color: #707070;
+  position: absolute;
+}
+.film{
+  width: 900px;
+	height: 900px;
+	background: white;
+	-webkit-border-radius: 450px;
+	border-radius: 450px;
+  position: absolute;
+  -webkit-animation: spin 0.8s infinite linear;
+
+}
+.insidefilm{
+  width: 450px;
+	height: 450px;
+	background:#211F1F;
+	-webkit-border-radius: 2250px;
+	border-radius: 225px;
+  position: absolute;
+  left: 225px;
+  top: 225px;
+}
