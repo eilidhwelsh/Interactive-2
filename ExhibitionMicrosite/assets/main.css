@@ -88,42 +88,92 @@ width: 2px;
 background-color: #707070;
 position: absolute;
 left:  450px;
-transform: rotate(210xdeg);
+transform: rotate(210deg);
 }
 
 #i1{
-max-height: 10%;
-max-width: 10%;
+position: absolute;
+height: 10px;
+width: 10px;
 z-index:2;
+transition: transform .5s;
+
 }
 #i2{
 max-height: 50px;
 max-width:50px;
-}#i3{
+transition: transform .5s;
+}
+#i3{
 max-height: 50px;
 max-width:50px;
-}#i4{
+transition: transform .5s;
+}
+#i4{
 max-height: 50px;
 max-width:50px;
-}#i5{
+transition: transform .5s;
+}
+#i5{
 max-height: 50px;
 max-width:50px;
-}#i7{
+transition: transform .5s;
+}
+#i7{
 max-height: 50px;
 max-width:50px;
-}#i8{
+transition: transform .5s;
+}
+#i8{
 max-height: 50px;
 max-width:50px;
-}#i9{
+transition: transform .5s;
+}
+#i9{
 max-height: 50px;
 max-width:50px;
-}#i10{
+transition: transform .5s;
+}
+#i10{
 max-height: 50px;
 max-width:50px;
-}#i11{
+transition: transform .5s;
+}
+#i11{
 max-height: 50px;
 max-width:50px;
-}#i12{
+transition: transform .5s;
+}
+#i12{
 max-height: 50px;
 max-width:50px;
+transition: transform .5s;
+}
+#i1:hover {
+    transform: scale(1.5);
+}
+#i2:hover {
+    transform: scale(1.5);
+}#i3:hover {
+    transform: scale(1.5);
+}#i4:hover {
+    transform: scale(1.5);
+}#i5:hover {
+    transform: scale(1.5);
+}#i6:hover {
+    transform: scale(1.5);
+}
+#i7:hover {
+    transform: scale(1.5);
+}
+#i8:hover {
+    transform: scale(1.5);
+}#i9:hover {
+    transform: scale(1.5);
+}#i10:hover {
+    transform: scale(1.5);
+}#i11:hover {
+    transform: scale(1.5);
+}#i12:hover {
+    transform: scale(1.5);
 }
