@@ -93,60 +93,47 @@ transform: rotate(210deg);
 
 #i1{
 position: absolute;
-height: 10px;
-width: 10px;
-z-index:2;
+left: 520px;
+top: 30px;
+
 
 
 }
 #i2{
-max-height: 50px;
-max-width:50px;
+position: absolute;
 
 }
 #i3{
-max-height: 50px;
-max-width:50px;
+
 
 }
 #i4{
-max-height: 50px;
-max-width:50px;
+
 
 }
 #i5{
-max-height: 50px;
-max-width:50px;
+
 
 }
 #i7{
-max-height: 50px;
-max-width:50px;
 
 }
 #i8{
-max-height: 50px;
-max-width:50px;
+
 
 }
 #i9{
-max-height: 50px;
-max-width:50px;
 
 }
 #i10{
-max-height: 50px;
-max-width:50px;
+
 
 }
 #i11{
-max-height: 50px;
-max-width:50px;
+
 
 }
 #i12{
-max-height: 50px;
-max-width:50px;
 
 }
 #a1:hover {
