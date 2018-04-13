@@ -96,84 +96,131 @@ position: absolute;
 height: 10px;
 width: 10px;
 z-index:2;
-transition: transform .5s;
+
 
 }
 #i2{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
 #i3{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
 #i4{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
 #i5{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
 #i7{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
 #i8{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
 #i9{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
 #i10{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
 #i11{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
 #i12{
 max-height: 50px;
 max-width:50px;
-transition: transform .5s;
+
 }
-#i1:hover {
-    transform: scale(1.5);
-}
-#i2:hover {
-    transform: scale(1.5);
-}#i3:hover {
-    transform: scale(1.5);
-}#i4:hover {
-    transform: scale(1.5);
-}#i5:hover {
-    transform: scale(1.5);
-}#i6:hover {
+#a1:hover {
+  visibility: visible;
     transform: scale(1.5);
 }
-#i7:hover {
+#a2:hover {
+    transform: scale(1.5);
+}#a3:hover {
+    transform: scale(1.5);
+}#a4:hover {
+    transform: scale(1.5);
+}#a5:hover {
+    transform: scale(1.5);
+}#a6:hover {
     transform: scale(1.5);
 }
-#i8:hover {
+#a7:hover {
     transform: scale(1.5);
-}#i9:hover {
+}
+#a8:hover {
     transform: scale(1.5);
-}#i10:hover {
+}
+#a9:hover {
     transform: scale(1.5);
-}#i11:hover {
+}
+#a10:hover {
     transform: scale(1.5);
-}#i12:hover {
+}
+#a11:hover {
     transform: scale(1.5);
+}
+#a12:hover {
+    transform: scale(1.5);
+}
+#a1{
+  position: absolute;
+  height:30px;
+  width: auto;
+  left: 800px;
+  top: 100px;
+  transition: transform .5s;
+
+}
+#a2{
+  visibility: hidden;
+}
+#a3{
+  visibility: hidden;
+}
+#a4{
+  visibility: hidden;
+}
+#a5{
+  visibility: hidden;
+}
+#a6{
+  visibility: hidden;
+}
+#a7{
+  visibility: hidden;
+}
+#a8{
+  visibility: hidden;
+}
+#a9{
+  visibility: hidden;
+}#a10{
+  visibility: hidden;
+}
+#a11{
+  visibility: hidden;
+}
+#a12{
+  visibility: hidden;
+
 }
