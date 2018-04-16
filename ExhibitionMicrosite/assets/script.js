@@ -1,0 +1,37 @@
+$(document).ready(function(){
+  $('#i1').click(function(){
+    $(this).toggleClass("film")
+  });
+$(document).ready(function(){
+  $('#i2').click(function(){
+    $(this).toggleClass("film")
+  });
+$(document).ready(function(){
+  $('#i3').click(function(){
+    $(this).toggleClass("film")
+  });
+$(document).ready(function(){
+  $('#i4').click(function(){
+    $(this).toggleClass("film")
+  });
+$(document).ready(function(){
+  $('#i5').click(function(){
+    $(this).toggleClass("film")
+  });
+$(document).ready(function(){
+  $('#i6').click(function(){
+    $(this).toggleClass("film")
+  });
+$(document).ready(function(){
+  $('#i7').click(function(){
+    $(this).toggleClass("film")
+  });
+$(document).ready(function(){
+  $('#i8').click(function(){
+    $(this).toggleClass("film")
+  });
+$(document).ready(function(){
+  $('#i9').click(function(){
+    $(this).toggleClass("film")
+  });
+});
