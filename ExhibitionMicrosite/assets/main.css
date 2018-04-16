@@ -13,9 +13,9 @@ body{
 }
 .title{
   font-size:20px;
-  font-family:'Lato', sans-serif;
+  font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
-  position:relative;
+  position:fixed;
   left: 1000px;
 }
 
@@ -88,38 +88,6 @@ top: 405px;
   left: 362px;
   top: -40px;
 }
-#a1:hover {
-    transform: scale(1.5);
-}
-#a2:hover {
-    transform: scale(1.5);
-}#a3:hover {
-    transform: scale(1.5);
-}#a4:hover {
-    transform: scale(1.5);
-}#a5:hover {
-    transform: scale(1.5);
-}#a6:hover {
-    transform: scale(1.5);
-}
-#a7:hover {
-    transform: scale(1.5);
-}
-#a8:hover {
-    transform: scale(1.5);
-}
-#a9:hover {
-    transform: scale(1.5);
-}
-#a10:hover {
-    transform: scale(1.5);
-}
-#a11:hover {
-    transform: scale(1.5);
-}
-#a12:hover {
-    transform: scale(1.5);
-}
 #a1{
   position: absolute;
   height:350px;
@@ -127,8 +95,9 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
-
+visibility: hidden;
 }
+
 #a2{
   position: absolute;
   height:350px;
@@ -136,6 +105,7 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+  visibility: hidden;
 }
 #a3{
   position: absolute;
@@ -144,6 +114,7 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+visibility: hidden;
 }
 #a4{
   position: absolute;
@@ -152,6 +123,7 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+visibility: hidden;
 }
 #a5{
   position: absolute;
@@ -160,6 +132,7 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+  visibility: hidden;
 }
 #a6{
   position: absolute;
@@ -167,7 +140,9 @@ top: 405px;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;}
+  transition: transform .5s;
+visibility: hidden;
+}
 #a7{
   position: absolute;
   height:350px;
@@ -175,6 +150,7 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+  visibility: hidden;
 }
 #a8{
   position: absolute;
@@ -183,6 +159,7 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+  visibility: hidden;
 }
 #a9{
   position: absolute;
@@ -191,6 +168,7 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+  visibility: hidden;
 }
 #a10{
   position: absolute;
@@ -199,6 +177,7 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+visibility: hidden;
 }
 #a11{
   position: absolute;
@@ -207,6 +186,7 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+visibility: hidden;
 }
 #a12{
   position: absolute;
@@ -215,4 +195,40 @@ top: 405px;
   left: 25px;
   top: 215px;
   transition: transform .5s;
+visibility: hidden;
+}
+
+#i1:hover #a1{
+visibility: visible;
+}
+#i2:hover #a2{
+visibility: visible;
+}
+#i3:hover #a3{
+visibility: visible;
+}
+#i4:hover #a4{
+visibility: visible;
+}#i5:hover #a5{
+visibility: visible;
+}#i6:hover #a6{
+visibility: visible;
+}
+#i7:hover #a7{
+visibility: visible;
+}
+#i8:hover #a8{
+visibility: visible;
+}
+#i9:hover #a9{
+visibility: visible;
+}
+#i10:hover #a10{
+visibility: visible;
+}
+#i11:hover #a11{
+visibility: visible;
+}
+#i12:hover #a12{
+visibility: visible;
 }
