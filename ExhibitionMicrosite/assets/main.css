@@ -168,23 +168,21 @@ top: 405px;
   left: 362px;
   top: -40px;
 }
+
 #a1{
   position: absolute;
-  height:350px;
+  height:550px;
   width: auto;
-  left: 25px;
-  top: 215px;
-  transition: transform .5s;
-display: none;
-}
+  left: 5px;
+  top: 170px;
 
+}
 #a2{
   position: absolute;
-  height:350px;
+  height:550px;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
   display: none;
 }
 #a3{
@@ -193,7 +191,7 @@ display: none;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
+
 display: none;
 }
 #a4{
@@ -202,7 +200,7 @@ display: none;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
+
 display: none;
 }
 #a5{
@@ -211,7 +209,7 @@ display: none;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
+
   display: none;
 }
 #a6{
@@ -220,7 +218,7 @@ display: none;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
+
 display: none;
 }
 #a7{
@@ -229,7 +227,7 @@ display: none;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
+
   display: none;
 }
 #a8{
@@ -238,7 +236,7 @@ display: none;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
+
   display: none;
 }
 #a9{
@@ -247,7 +245,7 @@ display: none;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
+
   display: none;
 }
 #a10{
@@ -256,7 +254,7 @@ display: none;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
+
 display: none;
 }
 #a11{
@@ -265,50 +263,14 @@ display: none;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
+
 display: none;
 }
 #a12{
   position: absolute;
-  height:350px;
+  height:550px;
   width: auto;
   left: 25px;
   top: 215px;
-  transition: transform .5s;
 display: none;
-}
-
-#i1:hover>#a1{
-display:inline;
-}
-#i2:hover #a2{
-display:inline;
-}
-#i3:hover #a3{
-display:inline;
-}
-#i4:hover #a4{
-display:inline;
-}#i5:hover #a5{
-display:inline;
-}#i6:hover #a6{
-display:inline;
-}
-#i7:hover + #a7{
-display:inline;
-}
-#i8:hover + #a8{
-display:inline;
-}
-#i9:hover + #a9{
-display:inline;
-}
-#i10:hover #a10{
-display:inline;
-}
-#i11:hover #a11{
-display:inline;
-}
-#i12:hover #a12{
-display:inline;
 }
