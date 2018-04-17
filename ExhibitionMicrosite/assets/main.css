@@ -53,7 +53,7 @@ display: block;
   top: 20px;
    animation:spin 1.5s linear infinite;
 }
-.title{
+#title1{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
@@ -62,6 +62,116 @@ display: block;
   right: 100px;
   top: 80px;
 
+}
+#title2{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title3{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title4{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title5{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title6{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title7{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title8{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title9{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title10{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title11{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
+}
+#title12{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1000px;
+  right: 100px;
+  top: 80px;
+display: none;
 }
 .arrow1{
   top: -100px;
