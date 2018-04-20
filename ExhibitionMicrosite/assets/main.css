@@ -48,7 +48,7 @@ display: block;
   display: block;
 }
 .film{
-  position: absolute;
+  position: fixed;
   left: 30px;
   top: 20px;
    animation:spin 1.5s linear infinite;
