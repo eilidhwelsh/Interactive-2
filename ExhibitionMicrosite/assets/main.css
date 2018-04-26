@@ -5,21 +5,24 @@ body{
 .name{
   font-size:250px;
 font-family: 'Ubuntu', sans-serif;
-  color: #707070;
-  left: 40px;
+  color: #939393;
+  left: 25px;
   top: 250px;
   position: relative;
   animation-name: nameintro;
+animation-delay: .5s;
   animation-duration: 3S;
   opacity:1;
 }
 
 @keyframes nameintro {
-    0% {opacity: 0;}
-    25%  {opacity: .5;}
-    50% {opacity:0;}
-    75%{opacity:.5;}
-  100% {opacity: 1;}
+  0% {opacity: .5;}
+  17%{opacity:0;}
+  34% {opacity:.25;}
+    51%{opacity:0;}
+  68%{opacity:.25;}
+  85% {opacity: .5;}
+100% {opacity: 1;}
 }
 .animation{
   animation-name: animation;
@@ -50,7 +53,7 @@ display: block;
 .film{
   position: fixed;
   left: 350px;
-  top: 45px;
+  top: 30px;
   animation-name: rotate;
   animation-duration: loop;
 }
@@ -61,122 +64,122 @@ display: block;
 .title1{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
    opacity: 0;
 }
 .title2{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+  left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
   opacity: 0;
 
 }
 .title3{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+  left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .title4{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .title5{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .title6{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .title7{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+  left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .title8{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+  left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .title9{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+color: #939393;
   position:fixed;
-  left: 1170px;
+  left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .title10{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+  left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .title11{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+color: #939393;
   position:fixed;
-  left: 1170px;
+left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .title12{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
-  left: 1170px;
+  left: 1250px;
   right: 100px;
-  top: 80px;
+  top: 40px;
 opacity: 0;
 }
 .arrow1{
@@ -192,9 +195,9 @@ opacity: 0;
   position: absolute;
 }
 #bruce{
-  font-size:50px;
+  font-size:55px;
   font-family: 'Ubuntu', sans-serif;
-  color: #707070;
+  color: #939393;
   position:fixed;
   left: 1000px;
   top: 100px;
@@ -207,9 +210,9 @@ opacity: 0;
   width: auto;
 }
 #about{
-  font-size:23px;
+  font-size:25px;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
+color: #939393;
   position:fixed;
   left: 1000px;
   top: 175px;
@@ -299,7 +302,7 @@ top: 406px;
   position: absolute;
   height:600px;
 
-  left: -657px;
+  left: -740px;
   top: 133px;
 
 
@@ -308,16 +311,16 @@ top: 406px;
   position: absolute;
   height:550px;
 
-  left: -625px;
-  top: 137px;
+  left: -710px;
+  top: 160px;
 
 }
 #a3{
   position: absolute;
   height:566px;
 
-  left: -565px;
-  top: 125px;
+  left: -670px;
+  top: 150px;
 
 
 }
@@ -325,8 +328,8 @@ top: 406px;
   position: absolute;
   height: 550px;
   width: auto;
-  left:-575px;
-  top: 140px;
+  left:-680px;
+  top: 165px;
 
 
 }
@@ -334,8 +337,8 @@ top: 406px;
   position: absolute;
   height:550px;
   width: ;
-  left:-590px ;
-  top:140px;
+  left:-665px ;
+  top:165px;
 
 
 }
@@ -343,8 +346,8 @@ top: 406px;
   position: absolute;
   height:550px;
 
-  left: -615px;
-  top: 137px;
+  left: -710px;
+  top: 165px;
 
 
 }
@@ -352,7 +355,7 @@ top: 406px;
   position: absolute;
   height:650px;
 
-  left: -560px;
+  left: -655px;
   top: 100px;
 
 
@@ -361,8 +364,8 @@ top: 406px;
   position: absolute;
   height:560px;
   width: ;
-  left: -575px;
-  top: 130px;
+  left: -665px;
+  top: 160px;
 
 
 }
@@ -370,8 +373,8 @@ top: 406px;
   position: absolute;
   height:600px;
   ;
-  left: -600px;
-  top: 110px;
+  left: -695px;
+  top: 115px;
 
 
 }
@@ -379,7 +382,7 @@ top: 406px;
   position: absolute;
   max-height:650px;
 
-  left: -545px;
+  left: -640px;
   top: 90px;
 
 
@@ -388,8 +391,8 @@ top: 406px;
   position: absolute;
   height:650px;
 
-  left: -605px;
-  top: 50px;
+  left: -705px;
+  top: 100px;
 
 
 }
@@ -397,7 +400,7 @@ top: 406px;
   position: absolute;
   height:650px;
 
-  left: -570px;
+  left: -675px;
   top: 100px;
 
 }
@@ -413,7 +416,7 @@ top: 406px;
 }
 .layerlight{
   z-index: 0;
-  opacity: .5;
+  opacity: .25;
 }
 .layerbright{
   z-index: 0;
