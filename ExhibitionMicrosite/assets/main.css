@@ -3,23 +3,23 @@ body{
   position: absolute;
 }
 .name{
-  font-size:350px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-size:250px;
+font-family: 'Ubuntu', sans-serif;
   color: #707070;
-  left: 75px;
-  top: 150px;
+  left: 40px;
+  top: 250px;
   position: relative;
   animation-name: nameintro;
   animation-duration: 3S;
-  opacity:0;
+  opacity:1;
 }
 
 @keyframes nameintro {
     0% {opacity: 0;}
     25%  {opacity: .5;}
-    50% {opacity:1;}
+    50% {opacity:0;}
     75%{opacity:.5;}
-  100% {opacity: 0;}
+  100% {opacity: 1;}
 }
 .animation{
   animation-name: animation;
@@ -30,7 +30,7 @@ body{
     0% {opacity: 0;}
     100%  {opacity: 1;}
   }
-}
+
  a:visited {
    position: absolute;
    top: 10px;
@@ -49,129 +49,135 @@ display: block;
 }
 .film{
   position: fixed;
-  left: 30px;
-  top: 20px;
-   animation:spin 1.5s linear infinite;
+  left: 350px;
+  top: 45px;
+  animation-name: rotate;
+  animation-duration: loop;
 }
-#title1{
+@keyframes rotate {
+     { -webkit-transform: rotate(180deg);
+       transform:rotate(180deg); } }
+
+.title1{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
+   opacity: 0;
+}
+.title2{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #707070;
+  position:fixed;
+  left: 1170px;
+  right: 100px;
+  top: 80px;
+  opacity: 0;
 
 }
-#title2{
+.title3{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
+opacity: 0;
 }
-#title3{
+.title4{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
+opacity: 0;
 }
-#title4{
+.title5{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
+opacity: 0;
 }
-#title5{
+.title6{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
+opacity: 0;
 }
-#title6{
+.title7{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
+opacity: 0;
 }
-#title7{
+.title8{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
+opacity: 0;
 }
-#title8{
+.title9{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
+opacity: 0;
 }
-#title9{
+.title10{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
+opacity: 0;
 }
-#title10{
+.title11{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
+opacity: 0;
 }
-#title11{
+.title12{
   font-size:20px;
   font-family: 'Open Sans Condensed', sans-serif;
   color: #707070;
   position:fixed;
-  left: 1000px;
+  left: 1170px;
   right: 100px;
   top: 80px;
-display: none;
-}
-#title12{
-  font-size:20px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: #707070;
-  position:fixed;
-  left: 1000px;
-  right: 100px;
-  top: 80px;
-display: none;
+opacity: 0;
 }
 .arrow1{
   top: -100px;
@@ -187,17 +193,17 @@ display: none;
 }
 #bruce{
   font-size:50px;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   color: #707070;
   position:fixed;
   left: 1000px;
   top: 100px;
 }
-#bc{
+#portrait{
   position: absolute;
-  left: -75px;
-  top: 26px;
-  height: 900px;
+  left: 225px;
+  top: 125px;
+  height: 600px;
   width: auto;
 }
 #about{
@@ -213,8 +219,18 @@ display: none;
 position: absolute;
 left: 550px;
 top: 35px;
-
+animation-name: blink;
+animation-duration: 3S;
+animation-delay: 1S;
 }
+@keyframes blink{
+  0% {opacity: .5;}
+  25%{opacity:0;}
+  50% {opacity:.5;}
+  75%{opacity:0;}
+100% {opacity: 1;}
+
+  }
 #i2{
 position: absolute;
 left: 572px;
@@ -223,14 +239,14 @@ top: 210px;
 }
 #i3{
 position: absolute;
-left: 591px;
-top: 405px;
+left: 599px;
+top: 406px;
 
 }
 #i4{
   position: absolute;
-  left: 496px;
-  top: 555px;
+  left: 504px;
+  top: 570px;
 
 }
 #i5{
@@ -252,8 +268,8 @@ top: 405px;
 }
 #i8{
   position: absolute;
-  left: -72px;
-  top: 414px;
+  left: -107px;
+  top: 428px;
 
 }
 #i9{
@@ -281,106 +297,125 @@ top: 405px;
 
 #a1{
   position: absolute;
-  height:550px;
-  width: auto;
-  left: 5px;
-  top: 170px;
+  height:600px;
+
+  left: -657px;
+  top: 133px;
+
 
 }
 #a2{
   position: absolute;
   height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
-  display: none;
+
+  left: -625px;
+  top: 137px;
+
 }
 #a3{
   position: absolute;
-  height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
+  height:566px;
 
-display: none;
+  left: -565px;
+  top: 125px;
+
+
 }
 #a4{
   position: absolute;
-  height:550px;
+  height: 550px;
   width: auto;
-  left: 25px;
-  top: 215px;
+  left:-575px;
+  top: 140px;
 
-display: none;
+
 }
 #a5{
   position: absolute;
   height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
+  width: ;
+  left:-590px ;
+  top:140px;
 
-  display: none;
+
 }
 #a6{
   position: absolute;
   height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
 
-display: none;
+  left: -615px;
+  top: 137px;
+
+
 }
 #a7{
   position: absolute;
-  height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
+  height:650px;
 
-  display: none;
+  left: -560px;
+  top: 100px;
+
+
 }
 #a8{
   position: absolute;
-  height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
+  height:560px;
+  width: ;
+  left: -575px;
+  top: 130px;
 
-  display: none;
+
 }
 #a9{
   position: absolute;
-  height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
+  height:600px;
+  ;
+  left: -600px;
+  top: 110px;
 
-  display: none;
+
 }
 #a10{
   position: absolute;
-  height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
+  max-height:650px;
 
-display: none;
+  left: -545px;
+  top: 90px;
+
+
 }
 #a11{
   position: absolute;
-  height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
+  height:650px;
 
-display: none;
+  left: -605px;
+  top: 50px;
+
+
 }
 #a12{
   position: absolute;
-  height:550px;
-  width: auto;
-  left: 25px;
-  top: 215px;
-display: none;
+  height:650px;
+
+  left: -570px;
+  top: 100px;
+
+}
+
+.layer{
+  z-index: 999;
+  opacity: 1;
+}
+
+.layerdown{
+  z-index: 0;
+  opacity: 0;
+}
+.layerlight{
+  z-index: 0;
+  opacity: .5;
+}
+.layerbright{
+  z-index: 0;
+  opacity: 1;
 }
