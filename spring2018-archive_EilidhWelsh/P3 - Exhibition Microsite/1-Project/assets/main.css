@@ -1,0 +1,424 @@
+body{
+  background-color: #211F1F;
+  position: absolute;
+}
+.name{
+  font-size:250px;
+font-family: 'Ubuntu', sans-serif;
+  color: #939393;
+  left: 25px;
+  top: 250px;
+  position: relative;
+  animation-name: nameintro;
+animation-delay: .5s;
+  animation-duration: 4S;
+  opacity:1;
+}
+
+@keyframes nameintro {
+  0% {opacity: .5;}
+  17%{opacity:0;}
+  34% {opacity:.25;}
+    51%{opacity:0;}
+  68%{opacity:.25;}
+  85% {opacity: .5;}
+100% {opacity: 1;}
+}
+.animation{
+  animation-name: animation;
+  animation-duration: 2S;
+
+}
+@keyframes animation{
+    0% {opacity: 0;}
+    100%  {opacity: 1;}
+  }
+
+ a:visited {
+   position: absolute;
+   top: 10px;
+   left: 50px;
+   color: #707070;
+text-decoration: none;
+display: block;
+}
+ a:link{
+  position: absolute;
+  top: 10px;
+  left: 50px;
+  color: #707070;
+  text-decoration: none;
+  display: block;
+}
+.film{
+  position: fixed;
+  left: 350px;
+  top: 30px;
+  animation-name: rotate;
+  animation-duration: loop;
+}
+@keyframes rotate {
+     { -webkit-transform: rotate(180deg);
+       transform:rotate(180deg); } }
+
+.title1{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+left: 1250px;
+  right: 100px;
+  top: 40px;
+   opacity: 0;
+}
+.title2{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+  left: 1250px;
+  right: 100px;
+  top: 40px;
+  opacity: 0;
+
+}
+.title3{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+  left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.title4{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.title5{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.title6{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.title7{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+  left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.title8{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+  left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.title9{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+color: #939393;
+  position:fixed;
+  left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.title10{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+  left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.title11{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+color: #939393;
+  position:fixed;
+left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.title12{
+  font-size:20px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: #939393;
+  position:fixed;
+  left: 1250px;
+  right: 100px;
+  top: 40px;
+opacity: 0;
+}
+.arrow1{
+  top: -100px;
+  left: -180px;
+  width: auto;
+  position: absolute;
+}
+.arrow2{
+  top: -100px;
+  left: 1350px;
+  width: auto;
+  position: absolute;
+}
+#bruce{
+  font-size:55px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #939393;
+  position:fixed;
+  left: 1000px;
+  top: 100px;
+}
+#portrait{
+  position: absolute;
+  left: 225px;
+  top: 125px;
+  height: 600px;
+  width: auto;
+}
+#about{
+  font-size:25px;
+  font-family: 'Open Sans Condensed', sans-serif;
+color: #939393;
+  position:fixed;
+  left: 1000px;
+  top: 175px;
+  right: 115px;
+}
+#i1{
+position: absolute;
+left: 550px;
+top: 35px;
+animation-name: blink;
+animation-duration: 3S;
+animation-delay: 1S;
+}
+@keyframes blink{
+  0% {opacity: .5;}
+  25%{opacity:0;}
+  50% {opacity:.5;}
+  75%{opacity:0;}
+100% {opacity: 1;}
+
+  }
+#i2{
+position: absolute;
+left: 572px;
+top: 210px;
+
+}
+#i3{
+position: absolute;
+left: 599px;
+top: 406px;
+
+}
+#i4{
+  position: absolute;
+  left: 504px;
+  top: 570px;
+
+}
+#i5{
+  position: absolute;
+  left: 347px;
+  top: 663px;
+
+}
+#i6{
+  position: absolute;
+  left: 151px;
+  top: 658px;
+
+}
+#i7{
+  position: absolute;
+  left: -13px;
+  top: 578px;
+}
+#i8{
+  position: absolute;
+  left: -107px;
+  top: 428px;
+
+}
+#i9{
+  position: absolute;
+  left: -110px;
+  top: 217px;
+}
+#i10{
+  position: absolute;
+  left: -3px;
+  top: 38px;
+
+}
+#i11{
+  position: absolute;
+  left: 169px;
+  top: -41px;
+
+}
+#i12{
+  position: absolute;
+  left: 362px;
+  top: -40px;
+}
+
+#a1{
+  position: absolute;
+  height:600px;
+
+  left: -740px;
+  top: 133px;
+
+
+}
+#a2{
+  position: absolute;
+  height:550px;
+
+  left: -710px;
+  top: 160px;
+
+}
+#a3{
+  position: absolute;
+  height:566px;
+
+  left: -670px;
+  top: 150px;
+
+
+}
+#a4{
+  position: absolute;
+  height: 550px;
+  width: auto;
+  left:-680px;
+  top: 165px;
+
+
+}
+#a5{
+  position: absolute;
+  height:550px;
+  width: ;
+  left:-665px ;
+  top:165px;
+
+
+}
+#a6{
+  position: absolute;
+  height:550px;
+
+  left: -710px;
+  top: 165px;
+
+
+}
+#a7{
+  position: absolute;
+  height:650px;
+
+  left: -655px;
+  top: 100px;
+
+
+}
+#a8{
+  position: absolute;
+  height:560px;
+  width: ;
+  left: -665px;
+  top: 160px;
+
+
+}
+#a9{
+  position: absolute;
+  height:600px;
+  ;
+  left: -695px;
+  top: 115px;
+
+
+}
+#a10{
+  position: absolute;
+  max-height:650px;
+
+  left: -640px;
+  top: 90px;
+
+
+}
+#a11{
+  position: absolute;
+  height:650px;
+
+  left: -705px;
+  top: 100px;
+
+
+}
+#a12{
+  position: absolute;
+  height:650px;
+
+  left: -675px;
+  top: 100px;
+
+}
+
+.layer{
+  z-index: 999;
+  opacity: 1;
+}
+
+.layerdown{
+  z-index: 0;
+  opacity: 0;
+}
+.layerlight{
+  z-index: 0;
+  opacity: .25;
+}
+.layerbright{
+  z-index: 0;
+  opacity: 1;
+}

@@ -9,17 +9,12 @@
 </head>
 <script>
 $(document).ready(function() {
-	$("#1S").click(function() {
-		 $('html, body').animate({
-				scrollTop: $("#A").offset().top
-		 }, 2000);
-	});
-	$("#A").click(function() {
-		 $('html, body').animate({
-				scrollTop: $("#S1").offset().top
-		 }, 2000);
-	});
 	$("#S1").click(function() {
+		 $('html, body').animate({
+				scrollTop: $("#A1").offset().top
+		 }, 2000);
+	});
+	$("#A1").click(function() {
 		 $('html, body').animate({
 				scrollTop: $("#S2").offset().top
 		 }, 2000);
@@ -31,18 +26,25 @@ $(document).ready(function() {
 	});
 	$("#S3").click(function() {
 		 $('html, body').animate({
-				scrollTop: $("#1S").offset().top
+				scrollTop: $("#Y1").offset().top
+		 }, 3000);
+	});
+	$("#Y1").click(function() {
+		 $('html, body').animate({
+				scrollTop: $("#top").offset().top
 		 }, 2000);
 	});
 });
+
 
 
   </script>
 
 
 <body>
+	
 	<div class="letter" id="S">
-		<div id="1S">
+		<div id="S1">
 		<div id="SSerif1"></div>
 		<div id="SSerif2"></div>
 		<div id="SBowl1"></div>
@@ -51,6 +53,7 @@ $(document).ready(function() {
 		<div id="SCurve2"></div>
 	</div>
 	</div>
+
 	<div class="letter" id="E">
 		<div id="ESerif1"></div>
 		<div id="ESerif2"></div>
@@ -75,6 +78,10 @@ $(document).ready(function() {
 	<div id="USerif1"></div>
 	<div id="USerif2"></div>
 	<div id=""></div>
+</div>
+<div class="number" id="11">
+
+	<div class=""></div>
 </div>
 <div class="letter" id="R">
 	<div id="RSerif1"></div>
@@ -105,10 +112,7 @@ $(document).ready(function() {
 	<div id="YDStroke1"></div>
 	<div id="YDStroke2"></div>
 </div>
-<div class="number" id="11">
 
-	<div class=""></div>
-</div>
 <div class="number" id="11">
 
 	<div class=""></div>
@@ -132,11 +136,12 @@ $(document).ready(function() {
 
 	<div class=""></div>
 </div>
-<div class="letter" id="A">
-	<div id="ASerif1"></div>
-	<div id="ASerif2"></div>
-	<div id="ADStroke"></div>
-	<div id="AAngle"></div>
+<div class="letter" id="A1">
+	<div id="A1Serif0"></div>
+	<div id="A1Serif2"></div>
+	<div id="A1Serif2"></div>
+	<div id="A1DStroke"></div>
+	<div id="A1Angle"></div>
 	<div class=""></div>
 </div>
 
@@ -288,7 +293,7 @@ $(document).ready(function() {
 </div>
 
 <div class="letter" id="S">
-	<div id="S1">
+	<div id="S2">
 	<div id="SSerif1"></div>
 	<div id="SSerif2"></div>
 	<div id="SBowl1"></div>
@@ -432,7 +437,7 @@ $(document).ready(function() {
 
 
 <div class="letter" id="S">
-	<div id="S2">
+	<div id="S3">
 	<div id="SSerif1"></div>
 	<div id="SSerif2"></div>
 	<div id="SBowl1"></div>
@@ -487,11 +492,11 @@ $(document).ready(function() {
 	<div id="LDStroke"></div>
 	<div class=""></div>
 </div>
-<div class="letter" id="A">
-	<div id="ASerif1"></div>
-	<div id="ASerif2"></div>
-	<div id="ADStroke"></div>
-	<div id="AAngle"></div>
+<div class="letter" id="A2">
+	<div id="A2Serif1"></div>
+	<div id="A2Serif2"></div>
+	<div id="A2DStroke"></div>
+	<div id="A2Angle"></div>
 	<div class=""></div>
 </div>
 <div class="letter" id="N">
@@ -579,7 +584,7 @@ $(document).ready(function() {
 </div>
 
 <div class="letter" id="S">
-	<div id="S3">
+	<div id="S4">
 	<div id="SSerif1"></div>
 	<div id="SSerif2"></div>
 	<div id="SBowl1"></div>
@@ -666,13 +671,29 @@ $(document).ready(function() {
 </div>
 <div class="letter" id="Y">
 	<div id="Y1">
-	<div id="YSerif1"></div>
-	<div id="YSerif2"></div>
-	<div id="YSerif3"></div>
-	<div id="YSerif4"></div>
-	<div id="YDStroke1"></div>
-	<div id="YDStroke2"></div>
+	<div id="Y1Serif1"></div>
+	<div id="Y1Serif2"></div>
+	<div id="Y1Serif3"></div>
+	<div id="Y1Serif4"></div>
+	<div id="Y1DStroke1"></div>
+	<div id="Y1DStroke2"></div>
 </div>
+</div>
+<div class="number" id="11">
+
+	<div class=""></div>
+</div><div class="number" id="11">
+
+	<div class=""></div>
+</div><div class="number" id="11">
+
+	<div class=""></div>
+</div><div class="number" id="11">
+
+	<div class=""></div>
+</div><div class="number" id="11">
+
+	<div class=""></div>
 </div>
 
 </body>

@@ -22,15 +22,52 @@ background-color:black;
 
 }
 
-#ASerif1 {
-	width: 50px;
+#A1Serif0 {
+	width: 20px;
 	height: 10px;
 	top: 190px;
-	background: black;
 	position: absolute;
-	left: -20px;
+
+  z-index: 0;
+  background: black;
 }
-#ASerif2 {
+#A1Serif2 {
+	width: 20px;
+	height: 10px;
+	top: 190px;
+	left: 160px;
+	background: red;
+	position: absolute;
+}
+
+#A1DStroke {
+	border-bottom: 100px solid red;
+	border-left: 0px solid transparent;
+	border-right: 70px solid transparent;
+	height: 0;
+	width: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+}
+#A1Angle {
+	width: 0px;
+	height: 60px;
+	border-bottom: 140px solid white;
+	border-right: 100px solid transparent;
+	top: 150px;
+  z-index: -1;
+}
+#A2Serif0 {
+	width: 20px;
+	height: 10px;
+	top: 190px;
+	position: absolute;
+
+  z-index: 0;
+  background: black;
+}
+#A2Serif2 {
 	width: 20px;
 	height: 10px;
 	top: 190px;
@@ -38,7 +75,8 @@ background-color:black;
 	background: black;
 	position: absolute;
 }
-#ADStroke {
+
+#A2DStroke {
 	border-bottom: 100px solid black;
 	border-left: 0px solid transparent;
 	border-right: 70px solid transparent;
@@ -48,12 +86,13 @@ background-color:black;
 	z-index: -1;
 	top: 100px;
 }
-#AAngle {
+#A2Angle {
 	width: 0px;
 	height: 60px;
 	border-bottom: 140px solid white;
 	border-right: 100px solid transparent;
 	top: 150px;
+  z-index: -1;
 }
 #BSerif1 {
 	width: 50px;
@@ -1128,6 +1167,55 @@ left: 115px;
 	top: 150px;
 	left: 45px;
 }
+#Y1Serif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: red;
+	position: absolute;
+	left: 65px;
+}
+#Y1Serif2 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: red;
+	position: absolute;
+	left: 120px;
+}
+#Y1Serif3 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: red;
+	position: absolute;
+}
+
+#Y1DStroke1 {
+	width: 50px;
+	height: 50px;
+	-webkit-transform: skew(40deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: red;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 25px;
+}
+#Y1DStroke2 {
+	width: 50px;
+	height: 50px;
+	background: red;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	z-index: -1;
+	top: 150px;
+	left: 45px;
+}
 #ZSerif1 {
 	width: 50px;
 	height: 10px;
@@ -1158,6 +1246,7 @@ position: absolute;
 	left: 50px;
 position: absolute;
 }
+/*
 #OneSerif1 {
 	width: 50px;
 	height: 10px;
