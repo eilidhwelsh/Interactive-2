@@ -10,10 +10,29 @@
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/script.js"></script>
 
 </head>
+<script>
+$(document).ready(function() {
 
+ $("#button-3").click(function() {
+    $('html, body').animate({
+       scrollTop: $("#button-39").offset().top
+    }, 2000);
+ });
+ $("#button-39").click(function() {
+    $('html, body').animate({
+       scrollTop: $("#button-14").offset().top
+    }, 2000);
+ });
+ function myFunction() {
+    alert("why did you click me??? Why do you never listen????");
+}
+});
+
+  </script>
 <body>
   <div class="container">
     <!-- item 1 -->
@@ -37,9 +56,9 @@
       <p class="num">5</p>
     </div>
    <div class="item" id="button-6">
+     <button onclick="myFunction()">dont click me</button>
     <p class="num">6
-    <button onclick="red()">Click Me</button> </p>
-<div id ="anim"></div>
+
   </div>
   <div class="item" id="button-7">
     <p class="num">7</p>
@@ -69,12 +88,10 @@
   <div class="item" id="button-15">
       <p class="num">15</p>
 
-      <div id="time">
-        time isnt real
-      </div>
   </div>
   <div class="item" id="button-16">
       <p class="num">16</p>
+
   </div>
  <div class="item" id="button-17">
       <p class="num">17</p>

@@ -7,21 +7,19 @@
 
 body {
 	font-family: 'Open Sans Condensed', sans-serif;
-	background-color:
+ color: lightslategrey;
 }
 
 /* container */
 
 .container {
 	position: relative;
-
-
 }
 
 /* items */
 
 .item {
-	color: grey;
+
 	width: 33.33%;
 height: 250px;
 display: inline-block;
@@ -32,12 +30,13 @@ position: relative;
 }
 
 .num {
-	font-size: 16px;
+	font-size: 100px;
 	    position: absolute;
-	    top: 20px;
-	    left: 30px;
+	    top: 45px;
+	    left: 240px;
 	    margin: 0;
-	    z-index: 3;
+	    z-index: 1;
+			opacity: .2;
 
 
 	/* comment out 'float: left;' to have items stack in a single column */
@@ -58,7 +57,7 @@ background:lightcoral;
 	background: olivedrab;
 }
 #button-4{
-	background:steelblue;
+	background:thistle;
 }
 #button-5{
 	background: indigo;
@@ -72,8 +71,9 @@ background:lightcoral;
 #button-8{
 	background:RosyBrown;
 }
-#Erehwon:hover{
+#Erehwon{
 	color: white;
+	font-size: 75px;
 }
 #button-9{
 	background:FireBrick;
@@ -95,6 +95,7 @@ background:lightcoral;
 }
 #button-15{
 	background:PapayaWhip;
+	opacity: 0;
 }
 #button-16{
 	background:Wheat;
@@ -203,10 +204,9 @@ background:lightcoral;
 }
 
 #button-1:hover {
-	content: ;
 	background: salmon;
-	transform: rotate(180deg) ;
-	opacity: .3;
+	transform: rotate(200deg) ;
+	opacity: ;
 }
 
 #button-1:active {
@@ -217,21 +217,23 @@ background:lightcoral;
 /* example buttons */
 
 #button-2::after {
-
 	content: 'this is a secret dont hover!! ';
 	text-align: center;
 	color: red;
+	font-size: 64px;
+
 }
 
 
 #button-2:hover::after {
-	content: 'i lied';
+	content: 'i told u not to and u did!!';
 	text-align: center;
 	color: grey;
+	font-size: 69px;
 }
 #button-4:hover {
 background-image: url(images/weirdmouth.gif);
-background-size:stretch;
+background-position: center;
 background-repeat: no-repeat;
 opacity: 0;
 }
@@ -243,9 +245,10 @@ opacity: 0;
 }
 
 #button-5::after {
-text-align: center;
+text-align-last: center;
 content:'rip';
 opacity: 0;
+	font-size: 69px;
 }
 
 #button-5:hover::after {
@@ -261,7 +264,7 @@ align-content: center;
 }
 
 #button-7:hover{
-    border-radius: 25px;
+    border-radius: 200px;
     background: Plum;
 		width: 33.33%;
 	height: 250px;
@@ -275,32 +278,70 @@ height: 250px;
 	-webkit-transform: rotateY(180deg);  /* Chrome, Safari, Opera */
 	transform: rotateY(180deg);
 }
-#button-9:active{
-	  box-shadow: 5px 10px 18px #888888;
+#button-9{
+
+
+	transition: width 2s;
 }
-#button-11
+#button-9:hover {
+    width: 0px;
+}
+#button-10:hover{
+	 background: linear-gradient(to bottom right, red, yellow);
+ }
+#button-11{
+
+}
+#button-11:hover {
+    transform: rotateY(180deg); /* Standard syntax */
+}
+#button-11:active{
+	 transform: rotateX(180deg);
+}
+
+#button-12:active {
+    transform: scale(2);
+}
+#button-13:hover{
+	transform: skewY(90deg);
+}
+#button-14:active {
+		-webkit-animation: rotation 2s infinite linear;
+}
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+#button-15:active{
+	opacity:1
+}
+#button-19:hover {
+background-image: url(images/alien.gif);
+background-position: center;
+
+opacity: 0;
+}
+
+#button-19:active {
+	background-image: url(images/alien.gif);
+	background-size:contain;
+	opacity: 1;
+}
 #button-17:hover {
 
 background-image: url(images/lord.gif);
 background-size:contain;
 background-repeat:no-repeat;
-opacity: 0;
+opacity: 1;
 }
 
 #button-17:active {
 
 	background-image: url(images/lord.gif);
 	background-size:contain;
-	opacity: 1;
-}
-#time{
-	opacity:0;
-}
-#time:hover{
-	align-content: (500, 0);
-	color:;
-}
-#time:active{
-	color: gray;
 	opacity: 1;
 }
