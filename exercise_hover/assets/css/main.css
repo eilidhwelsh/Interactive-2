@@ -60,7 +60,7 @@ a:hover {
 }
 
 #any:hover {
-	color: black;
+	color: yellow;
 }
 
 #pizza {
@@ -81,7 +81,7 @@ a:hover {
 
 .mouse:hover {
 	color: black;
-	cursor: url('../img/arrow.png'), auto;
+	cursor: url('../img/eye.png'), auto;
 
 }
 
@@ -102,8 +102,9 @@ a:hover {
 	z-index: 0;
 	position: absolute;
 	max-width: 200px;
-	opacity: 0;
-	-webkit-transition: all .1s ease-in-out;
+	opacity: .25;
+	-webkit-transition: all .4s ease-in-out ;
+
 }
 
 p#image-paragraph:hover img {
@@ -115,25 +116,29 @@ p#image-paragraph:hover img {
 p#image-paragraph #image-1 {
 	top: 10px;
 	left: 30px;
-	-webkit-transition-delay: 0s;
+	-webkit-transition-delay: .4s;
+  -webkit-transform: translate(10px, 0);
 }
 
 p#image-paragraph #image-2 {
 	right: 10px;
 	bottom: 70px;
-	-webkit-transition-delay: 0.5s;
+	-webkit-transition-delay: 0s;
+  -webkit-transform: translate(20px, 0);
 }
 
 p#image-paragraph #image-3 {
 	left: 300px;
 	bottom: -100px;
 	-webkit-transition-delay: .3s;
+  -webkit-transform: translate(30px, 0);
 }
 
 p#image-paragraph #image-4 {
 	right: 90px;
 	top: -100px;
-	-webkit-transition-delay: .2s;
+	-webkit-transition-delay: .1s;
+  -webkit-transform: translate(40px, 0);
 }
 
 
@@ -156,19 +161,19 @@ p#image-paragraph #image-4 {
 
 .slide-in {
 	opacity: 0;
-	-webkit-transform: translate(400px, 0);
+	-webkit-transform: translate(0, 400px);
 }
 
 /* when you hover on #paragraph-3, we're adjusting the x position of the .slide-out text, and .slide-in */
 
 #sliding-paragraph:hover .slide-out {
 	opacity: 0;
-	-webkit-transform: translate(-400px, 0);
+	-webkit-transform: translate(0, -400px);
 }
 
 #sliding-paragraph:hover .slide-in {
 	opacity: 1;
-	-webkit-transform: translate(0px, 0);
+	-webkit-transform: translate(0, 0px);
 }
 
 
@@ -196,9 +201,8 @@ p#image-paragraph #image-4 {
 }
 
 #shape-paragraph:hover #square {
-	background-color: orange;
-	border-radius: 100px;
-
+		-webkit-transform: rotate(-175deg);
+left: 100%;
 	-webkit-transform: scale(2.25);
 
 }
