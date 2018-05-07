@@ -1,0 +1,1315 @@
+body:active{
+background-color:black;
+  filter: invert(100%);
+
+}
+.letter {
+	width: 200px;
+	height: 300px;
+	position: relative;
+	display: inline-block;
+	margin: 60px;
+  margin-bottom:-50px;
+}
+.number {
+	width: 200px;
+	height: 300px;
+	position: relative;
+	display: inline-block;
+	margin: 50px;
+	margin-bottom: -50px;
+}
+
+}
+
+#A1Serif0 {
+	width: 20px;
+	height: 10px;
+	top: 190px;
+	position: absolute;
+
+  z-index: 0;
+  background: black;
+}
+#A1Serif2 {
+	width: 20px;
+	height: 10px;
+	top: 190px;
+	left: 160px;
+	background: red;
+	position: absolute;
+}
+
+#A1DStroke {
+	border-bottom: 100px solid red;
+	border-left: 0px solid transparent;
+	border-right: 70px solid transparent;
+	height: 0;
+	width: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+}
+#A1Angle {
+	width: 0px;
+	height: 60px;
+	border-bottom: 140px solid white;
+	border-right: 100px solid transparent;
+	top: 150px;
+  z-index: -1;
+}
+#A2Serif0 {
+	width: 20px;
+	height: 10px;
+	top: 190px;
+	position: absolute;
+
+  z-index: 0;
+  background: black;
+}
+#A2Serif2 {
+	width: 20px;
+	height: 10px;
+	top: 190px;
+	left: 160px;
+	background: black;
+	position: absolute;
+}
+
+#A2DStroke {
+	border-bottom: 100px solid black;
+	border-left: 0px solid transparent;
+	border-right: 70px solid transparent;
+	height: 0;
+	width: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+}
+#A2Angle {
+	width: 0px;
+	height: 60px;
+	border-bottom: 140px solid white;
+	border-right: 100px solid transparent;
+	top: 150px;
+  z-index: -1;
+}
+#BSerif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#BSerif2 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+#BDStroke {
+	background: black;
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 15px;
+}
+#BBowl1 {
+	width: 75px;
+	height: 50px;
+	background: black;
+	border-radius: 70px;
+	top: 100px;
+	left: 70px;
+	position: absolute;
+}
+#BBowl2 {
+	width: 80px;
+	height: 60px;
+	background: black;
+	-webkit-border-radius: 50px;
+	border-radius: 70px;
+	top: 145px;
+	left: 70px;
+	position: absolute;
+}
+#BSpace1 {
+	width: 45px;
+	height: 115px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 95px;
+	left: 60px;
+}
+#BSpace2 {
+	width: 5px;
+	height: 110px;
+	background: white;
+	position: absolute;
+	top: 95px;
+	left: 60px;
+}
+#CDStroke{
+	width: 10px;
+	height: 100px;
+	background:white;
+  top: 100px;
+	left: 70px;
+	position: absolute;
+}
+
+#CBowl1{
+	width: 200px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top:100px;
+z-index: -1;
+}
+
+#CBowl2{
+	width: 130px;
+	height: 110px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 60px / 50px;
+	left: 70px;
+	top: 93px;
+	position: absolute;
+	z-index: -1;
+}
+#CSerif1 {
+	width: 10px;
+	height: 30px;
+	top:100px;
+	left: 150px;
+	background: black;
+	position: absolute;
+}
+#CSerif2 {
+	width: 10px;
+	height: 30px;
+	background: black;
+	top: 170px;
+	left: 150px;
+	position: absolute;
+}
+
+#DSerif1 {
+	width: 50px;
+	height: 10px;
+	top:100px;
+	background: black;
+	position: absolute;
+}
+#DSerif2 {
+	width: 50px;
+	height: 10px;
+	background: black;
+	top: 190px;
+	position: absolute;
+}
+#DDStroke {
+	background: black;
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 15px;
+
+}
+
+
+#DSpace1 {
+	width: 120px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 30px;
+	border-radius: 50px;
+position: absolute;
+top: 100px;
+	left: 40px;
+}
+
+#DSpace2 {
+	width: 45px;
+	height: 120px;
+	background: white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: absolute;
+	top: 90px;
+	left: 60px;
+}
+#DSpace3{
+	width: 5px;
+	height: 110px;
+	background: white;
+	position: absolute;
+	left: 60px;
+	top: 100px;
+}
+
+#ESerif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#ESerif2 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+#EDStroke {
+	background: black;
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 15px;
+}
+#EArm1{
+	width: 30px;
+	height: 20px;
+	background: black;
+	top: 100px;
+	left: 105px;
+	position: absolute;
+}
+#EArm2{
+	width: 30px;
+	height: 15px;
+	background: black;
+	top: 145px;
+	left: 105px;
+	position: absolute;
+}
+#EArm3{
+	width: 30px;
+	height: 20px;
+	background: black;
+	top: 180px;
+	left: 105px;
+	position: absolute;
+}
+
+#FSerif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#FSerif2 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+#FDStroke {
+	background: black;
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 15px;
+}
+#FArm1{
+	width: 30px;
+	height: 20px;
+	background: black;
+	top: 100px;
+	left: 105px;
+	position: absolute;
+}
+#FArm2{
+	width: 30px;
+	height: 15px;
+	background: black;
+	top: 145px;
+	left: 105px;
+	position: absolute;
+}
+#GSerif1 {
+	width: 10px;
+	height: 30px;
+	top:100px;
+	left: 145px;
+	background: black;
+	position: absolute;
+z-index: 1;
+}
+#GSerif2 {
+	width: 15px;
+	height: 30px;
+	top:170px;
+	left: 145px;
+	background: black;
+	position: absolute;
+z-index: 1;
+}
+#GMiddle {
+	width: 70px;
+	height: 80px;
+	background: white;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: 110px;
+	left: 80px;
+}
+#GShape {
+	width: 200px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: 100px;
+}
+
+#GShape {
+	width: 200px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 100px / 50px;
+	-webkit-border-radius: 100px / 50px;
+	border-radius: 100px / 50px;
+	position: absolute;
+	top: 100px;
+}
+#GArm1{
+	width: 60px;
+	height: 10px;
+	background: black;
+	top: 145px;
+	left: 110px;
+	position: absolute;
+	z-index: 1;
+}
+
+/*#GBowl{
+    width: 60px;
+		height: 10px;
+		background: red;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;
+		top: 161px;
+		left: 90px;
+		position: absolute;
+}
+*/
+#GDStroke1{
+	width: 70px;
+height: 140px;
+background:white;
+top: 100px;
+left: 145px;
+position: absolute;
+
+}
+#GDStroke2{
+	width: 10px;
+	height: 100px;
+	background:white;
+  top: 100px;
+	left: 140px;
+	position: absolute;
+	z-index: -1;
+}
+#GDStroke3{
+	width: 10px;
+	height: 100px;
+	background:white;
+  top: 100px;
+	left: 80px;
+	position: absolute;
+
+}
+#HSerif1{
+		width: 50px;
+		height: 10px;
+		top: 190px;
+		background: black;
+		position: absolute;
+	}
+	#HSerif2 {
+		width: 50px;
+		height: 10px;
+		top: 100px;
+		background: black;
+		position: absolute;
+		left: 130px;
+	}
+	#HSerif3 {
+		width: 50px;
+		height: 10px;
+		top: 100px;
+		background: black;
+		position: absolute;
+	}
+	#HSerif4 {
+		width: 50px;
+		height: 10px;
+		top: 190px;
+		background: black;
+		position: absolute;
+		left: 130px;
+	}
+	#HDStroke1 {
+		background: black;
+		width: 50px;
+		height: 100px;
+		position: absolute;
+		z-index: -1;
+		top: 100px;
+		left: 15px;
+	}
+	#HDStroke2 {
+		background: black;
+		width: 50px;
+		height: 100px;
+		position: absolute;
+		z-index: -1;
+		top: 100px;
+		left: 115px;
+	}
+	#ISerif1 {
+		width: 50px;
+		height: 10px;
+		top: 100px;
+		background: black;
+		position: absolute;
+	}
+	#ISerif2 {
+		width: 50px;
+		height: 10px;
+		top: 190px;
+		background: black;
+		position: absolute;
+	}
+
+	#IDStroke {
+		background: black;
+		width: 50px;
+		height: 100px;
+		position: absolute;
+		z-index: -1;
+		top: 100px;
+		left: 15px;
+	}
+	#JSerif1 {
+		width: 50px;
+		height: 10px;
+		background: black;
+		position: absolute;
+    top: 100px;
+		left: 130px;
+	}
+	#JDStroke1 {
+		background: black;
+		width: 50px;
+		height: 100px;
+		position: absolute;
+		z-index: -1;
+		top: 100px;
+		left: 115px;
+	}
+	#JDStroke2{
+	width: 50px;
+	height: 40px;
+	background: black;
+	position: absolute;
+	top:140px;
+	left: 20px;
+}
+#KSerif1 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+#KSerif2 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+
+#KDStroke {
+	background: black;
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 15px;
+}
+#KSerif3 {
+	width: 50px;
+	height: 10px;
+	background: black;
+	position: absolute;
+	left:130px;
+	top: 100px;
+}
+#KSerif4 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	left: 130px;
+	background: black;
+	position: absolute;
+}
+#KAngle1 {
+		width: 50px;
+		height: 50px;
+		-webkit-transform: skew(40deg);
+		-moz-transform: skew(20deg);
+		-o-transform: skew(20deg);
+		background: black;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		position: absolute;
+		z-index: -1;
+		top: 150px;
+		left: 100px;
+	}
+#LSerif1 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+#LSerif2 {
+	width: 50px;
+	height: 20px;
+	top: 180px;
+	left: 100px;
+	background: black;
+	position: absolute;
+}
+
+#LDStroke {
+	background: black;
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 15px;
+}
+#MSerif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#MSerif2 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+	left: 130px;
+}
+#MSerif3 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+#MSerif4 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	left:130px;
+	background: black;
+	position: absolute;
+}
+
+#MDStroke1 {
+	width: 50px;
+	height: 50px;
+	-webkit-transform: skew(40deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: black;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 25px;
+}
+#MDStroke2{
+background: black;
+width: 50px;
+height: 100px;
+position: absolute;
+z-index: -1;
+top: 100px;
+left: 115px;
+}
+	#Nserif1 {
+		width: 50px;
+		height: 10px;
+		top: 190px;
+		background: black;
+		position: absolute;
+	}
+	#Nserif2 {
+		width: 50px;
+		height: 10px;
+		top: 100px;
+		background: black;
+		position: absolute;
+		left: 130px;
+	}
+	#Nserif3 {
+		width: 50px;
+		height: 10px;
+		top: 100px;
+		background: black;
+		position: absolute;
+	}
+
+	#NDStroke {
+		width: 65px;
+		height: 100px;
+		-webkit-transform: skew(40deg);
+		-moz-transform: skew(20deg);
+		-o-transform: skew(20deg);
+		background: black;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		position: absolute;
+		z-index: -1;
+		top: 100px;
+		left: 50px;
+	}
+	#OMiddle {
+		width: 50px;
+		height: 120px;
+		background: white;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;
+		position: absolute;
+		top: 90px;
+		left: 75px;
+	}
+	#OShape {
+		width: 200px;
+		height: 100px;
+		background: black;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;
+		position: absolute;
+		top: 100px;
+	}
+	#PSerif1 {
+		width: 50px;
+		height: 10px;
+		top: 190px;
+		background: black;
+		position: absolute;
+	}
+	#PSerif2 {
+		width: 50px;
+		height: 10px;
+		top: 100px;
+		background: black;
+		position: absolute;
+	}
+	#PDStroke {
+		background: black;
+		width: 50px;
+		height: 100px;
+		position: absolute;
+		z-index: -1;
+		top: 100px;
+		left: 15px;
+	}
+	#PBowl1 {
+		width: 75px;
+		height: 50px;
+		background: black;
+		border-radius: 70px;
+		top: 100px;
+		left: 70px;
+		position: absolute;
+	}
+	#PSpace {
+		width: 45px;
+		height: 115px;
+		background: white;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		position: absolute;
+		top: 95px;
+		left: 65px;
+	}
+	#QMiddle {
+		width: 50px;
+		height: 120px;
+		background: white;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;
+		position: absolute;
+		top: 90px;
+		left: 75px;
+	}
+	#QShape {
+		width: 200px;
+		height: 100px;
+		background: black;
+		-moz-border-radius: 100px / 50px;
+		-webkit-border-radius: 100px / 50px;
+		border-radius: 100px / 50px;
+		position: absolute;
+		top: 100px;
+	}
+	#QTail {
+		width: 50px;
+		height: 30px;
+		-webkit-transform: skew(40deg);
+		-moz-transform: skew(20deg);
+		-o-transform: skew(20deg);
+		background: black;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		position: absolute;
+		 z-index: -1;
+		top: 170px;
+		left: 100px;
+	}
+	#QSerif1 {
+		width: 50px;
+		height: 10px;
+		top: 190px;
+		left: 130px;
+		background: black;
+		position: absolute;
+	}
+	#RSerif1 {
+		width: 50px;
+		height: 10px;
+		top: 190px;
+		background: black;
+		position: absolute;
+	}
+	#RSerif2 {
+		width: 50px;
+		height: 10px;
+		top: 100px;
+		background: black;
+		position: absolute;
+	}
+	#RDStroke {
+		background: black;
+		width: 50px;
+		height: 100px;
+		position: absolute;
+		z-index: -1;
+		top: 100px;
+		left: 15px;
+	}
+	#RBowl1 {
+		width: 75px;
+		height: 50px;
+		background: black;
+		border-radius: 70px;
+		top: 100px;
+		left: 70px;
+		position: absolute;
+	}
+	#RSpace {
+		width: 45px;
+		height: 55px;
+		background: white;
+		-moz-border-radius: 50px;
+		-webkit-border-radius: 50px;
+		border-radius: 50px;
+		position: absolute;
+		top: 95px;
+		left: 65px;
+	}
+	#RAngle1 {
+			width: 50px;
+			height: 30px;
+			-webkit-transform: skew(40deg);
+			-moz-transform: skew(20deg);
+			-o-transform: skew(20deg);
+			background: black;
+			border-left: 5px solid transparent;
+			border-right: 5px solid transparent;
+			position: absolute;
+       z-index: -1;
+			top: 170px;
+			left: 100px;
+		}
+		#RSerif3 {
+			width: 50px;
+			height: 10px;
+			top: 190px;
+			left: 130px;
+			background: black;
+			position: absolute;
+		}
+		#SSerif1 {
+			width: 10px;
+			height: 30px;
+			top:100px;
+			left: 150px;
+			background: black;
+			position: absolute;
+		}
+		#SSerif2 {
+			width: 10px;
+			height: 30px;
+			background: black;
+			top: 170px;
+
+			position: absolute;
+		}
+		#SBowl1{
+			width: 120px;
+	height: 70px;
+	background: red;
+	-moz-border-radius: 50% / 50%;
+	-webkit-border-radius: 50% / 50%;
+	border-radius: 50% / 50%;
+		position: absolute;
+		top: 115px;
+		left: 25px;
+			}
+		#SCurve1 {
+
+
+}
+		#SBowl3{
+			width: 200px;
+			height: 100px;
+			background: red;
+			-moz-border-radius: 100px / 50px;
+			-webkit-border-radius: 100px / 50px;
+			border-radius: 100px / 50px;
+			position: absolute;
+
+		}
+		#TSerif1 {
+			width: 40px;
+			height: 20px;
+			top: 100px;
+			left: -50px;
+			background: black;
+			position: absolute;
+		}
+		#TSerif2 {
+			width: 40px;
+			height: 20px;
+			top: 100px;
+			left:90px;
+			background: black;
+			position: absolute;
+		}
+		#TDStroke {
+			background: black;
+			width: 50px;
+			height: 110px;
+			position: absolute;
+			z-index: -1;
+			top: 100px;
+			left: 15px;
+		}
+		#UShape{
+	 		 width: 100px;
+	 		 height: 200px;
+	 		 background: black;
+	 		 -moz-border-radius: 100px / 50px;
+	 		 -webkit-border-radius: 50px / 100px;
+	 		 border-radius: 50px / 100px;
+	 		 position: absolute;
+	 		 top: 50px;
+			 left: 45px;
+			 transform: rotate(90deg);
+	 	 }
+		 #UMiddle {
+			 width: 150px;
+			 height: 100px;
+			 background: white;
+			 -moz-border-radius: 100px / 50px;
+			 -webkit-border-radius: 100px / 50px;
+			 border-radius: 100px / 150px;
+			 position: absolute;
+			 top: 100px;
+			 left: 50px;
+
+		 }
+		 #USerif1 {
+		 	width: 50px;
+		 	height: 10px;
+		 	top: 93px;
+		 	background: black;
+			left: 25px;
+		 	position: absolute;
+		 }
+		 #USerif2 {
+		 	width: 50px;
+		 	height: 10px;
+		 	top: 93px;
+		 	background: black;
+		 	position: absolute;
+		 	left: 130px;
+		 }
+		 #VSerif1 {
+	 		width: 50px;
+	 		height: 10px;
+	 		top: 100px;
+	 		background: black;
+	 		position: absolute;
+	 	}
+	 	#VSerif2 {
+	 		width: 50px;
+	 		height: 10px;
+	 		top: 100px;
+	 		background: black;
+	 		position: absolute;
+	 		left: 130px;
+	 	}
+
+
+	 	#VDStroke {
+	 		width: 65px;
+	 		height: 100px;
+	 		-webkit-transform: skew(20deg);
+	 		-moz-transform: skew(20deg);
+	 		-o-transform: skew(20deg);
+	 		background: black;
+	 		border-left: 5px solid transparent;
+	 		border-right: 5px solid transparent;
+	 		position: absolute;
+	 		z-index: -1;
+	 		top: 100px;
+	 		left: 50px;
+	 	}
+
+
+		#WSerif2 {
+			width: 50px;
+			height: 10px;
+			top: 100px;
+			background: black;
+			position: absolute;
+			left: 110px;
+		}
+		#WSerif3 {
+			width: 50px;
+			height: 10px;
+			top: 100px;
+			background: black;
+			position: absolute;
+			left: -70px;
+		}
+		#WDStroke1 {
+			width: 45px;
+		height: 100px;
+		-webkit-transform: skew(20deg);
+		-moz-transform: skew(20deg);
+		-o-transform: skew(20deg);
+		background: black;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		position: absolute;
+		z-index: -1;
+		top: 100px;
+		left: 50px;
+		}
+		#WDStroke2{
+
+		}
+		#WDStroke3{
+			width: 45px;
+		height: 100px;
+		-webkit-transform: skew(20deg);
+		-moz-transform: skew(20deg);
+		-o-transform: skew(20deg);
+		background: black;
+		border-left: 5px solid transparent;
+		border-right: 5px solid transparent;
+		position: absolute;
+		z-index: -1;
+		top: 100px;
+		left: -30px;
+		}
+#Xserif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+}
+#Xserif2 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+	left: 130px;
+}
+#Xserif3 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+#Xserif4 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+	left: 130px;
+}
+#XDStroke {
+	width: 65px;
+	height: 100px;
+	-webkit-transform: skew(40deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: black;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 50px;
+}
+#YSerif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+	left: 65px;
+}
+#YSerif2 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+	left: 120px;
+}
+#YSerif3 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+
+#YDStroke1 {
+	width: 50px;
+	height: 50px;
+	-webkit-transform: skew(40deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: black;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 25px;
+}
+#YDStroke2 {
+	width: 50px;
+	height: 50px;
+	background: black;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	z-index: -1;
+	top: 150px;
+	left: 45px;
+}
+#Y1Serif1 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	background: black;
+	position: absolute;
+	left: 65px;
+}
+#Y1Serif2 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+	left: 120px;
+}
+#Y1Serif3 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+
+#Y1DStroke1 {
+	width: 50px;
+	height: 50px;
+	-webkit-transform: skew(40deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: black;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 25px;
+}
+#Y1DStroke2 {
+	width: 50px;
+	height: 50px;
+	background: black;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	position: absolute;
+	z-index: -1;
+	top: 150px;
+	left: 45px;
+}
+#ZSerif1 {
+	width: 50px;
+	height: 10px;
+	background: black;
+	left: -10px;
+	top: 100px;
+position: absolute;
+}
+#ZSerif2 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	left: 130px;
+	background: black;
+	position: absolute;
+}
+#ZDStroke {
+	width: 65px;
+	height: 100px;
+	-webkit-transform: skew(140deg);
+	-moz-transform: skew(20deg);
+	-o-transform: skew(20deg);
+	background: black;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	z-index: -1;
+	top: 100px;
+	left: 50px;
+position: absolute;
+}
+/*
+#OneSerif1 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+#OneSerif2 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	left: 0px;
+	background: black;
+	position: absolute;
+}
+#OneSerif3 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	left: 30px;
+	background: black;
+	position: absolute;
+}
+#OneDStroke {
+	background: black;
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 15px;
+}
+#TwoSerif1 {
+	width: 50px;
+	height: 10px;
+	top: 100px;
+	background: black;
+	position: absolute;
+}
+#TwoSerif2 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	left: 0px;
+	background: black;
+	position: absolute;
+}
+#TwoSerif3 {
+	width: 50px;
+	height: 10px;
+	top: 190px;
+	left: 30px;
+	background: black;
+	position: absolute;
+}
+#TwoDStroke {
+	background: black;
+	width: 50px;
+	height: 100px;
+	position: absolute;
+	z-index: -1;
+	top: 100px;
+	left: 15px;
+}
+
+*/
