@@ -1,0 +1,34 @@
+*{
+
+}
+body{
+  background-color: aliceblue;
+}
+
+p{
+font-family: 'Jua', sans-serif;
+  color: mediumseagreen;
+  font-size: 75px;
+  left: 650px;
+  top: -50px;
+  position: absolute;
+}
+
+.fruits1 {
+  background-color:lightyellow;
+padding-left:15cm ;
+padding-right: 30cm;
+  padding-top:2cm;
+margin-bottom:-7.7cm;
+ width: 25%;
+  height: auto;
+}
+.fruits2{
+  background-color:lightyellow;
+  padding-left:15cm ;
+  padding-right: 30cm;
+  margin-top:7.4cm;
+padding-bottom:10cm;
+ width: 25%;
+ height: auto;
+}

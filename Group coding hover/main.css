@@ -11,13 +11,26 @@ body{
     align-content: center;
 }
 
-.zipper{
+#zipper{
     background-color: red;
-    width: 60px;
-    height: 45px;
+    width: 120px;
+    height: 90px;
     position: absolute;
 }
 
+#zipper:hover{
+    	cursor: url('pointinghand.png'), auto;
+}
+
+#zipperheader{
+    
+}
+.bc{
+    position: absolute;
+    margin: 10px;
+    width: 1250px;
+    height: 500px;
+}
 .bubbles{
     width: 60px;
 	height: 60px;
@@ -27,4 +40,6 @@ body{
 	border-radius: 50px;
     border: solid 2px white;
     position: relative;
+    display: inline-block;
+    margin: 30px;
 }
