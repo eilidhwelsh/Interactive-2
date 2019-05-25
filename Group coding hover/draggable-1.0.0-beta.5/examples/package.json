@@ -61,6 +61,6 @@
     "stylelint": "^8.4.0",
     "stylelint-config-shopify": "^4.0.0",
     "webpack": "^3.10.0",
-    "webpack-bundle-analyzer": "^2.10.0"
+    "webpack-bundle-analyzer": "^3.3.2"
   }
 }
